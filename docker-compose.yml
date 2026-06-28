@@ -1,0 +1,7 @@
+services:
+  housing-price-api:
+    build: .
+    container_name: housing-price-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
